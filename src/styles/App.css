@@ -1,0 +1,23 @@
+@font-face {
+    font-family: WixMadeforDisplay;
+    font-weight: 400;
+    src: url("../fonts/WixMadeforDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: WixMadeforDisplay;
+    font-weight: 500;
+    src: url("../fonts/WixMadeforDisplay-Medium.ttf");
+}
+
+@font-face {
+    font-family: WixMadeforDisplay;
+    font-weight: 700;
+    src: url("../fonts/WixMadeforDisplay-Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
