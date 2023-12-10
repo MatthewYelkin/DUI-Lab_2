@@ -1,0 +1,42 @@
+.SingerOfDay{
+    width: 70%;
+    height: 700px;
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SingerBlock{
+    width: 70%;
+    display: flex;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+
+.SingerOfDay h1{
+    margin: 15px 0 35px;
+}
+
+.SingerOfDay img{
+    margin: 5px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.SingerOfDay p:first-child{
+    font-size: 32px;
+}
+
+.SingerOfDay p:nth-child(2){
+    font-size: 24px;
+}
+
+.SingerOfDay p:last-child{
+    font-size: 16px;
+}
+
+.SingerInfo{
+
+}
