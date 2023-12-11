@@ -1,26 +1,13 @@
 import React from 'react';
-import classes from "./SingerOfDay.module.css";
-import MyButton from "../MyButton/MyButton";
-import singerOfDayPhoto from "../../img/og_buda_avatar.jpg"
+import "./SingerOfDay.css";
+import SingerBlock from "../SingerBlock/SingerBlock";
 
 const SingerOfDay = () => {
     return (
-        <div className = {classes.SingerOfDay}>
+        <div className = "SingerOfDay">
             <h1>Исполнитель дня</h1>
             <div>
-                <div className = {classes.SingerBlock}>
-                    <img src={singerOfDayPhoto} alt="PHOTO"/>
-                    <div className={classes.SingerInfo}>
-                        <div>
-                            <p>Имя</p>
-                            <p>Годы</p>
-                            <p>Краткая информацияКраткая я информацияя информацияя информацияя информацияинформация</p>
-                        </div>
-                        <div>
-                            <MyButton>Подробнее</MyButton>
-                        </div>
-                    </div>
-                </div>
+                <SingerBlock style = {{marginTop: "-120px"}}/>
             </div>
         </div>
     );
