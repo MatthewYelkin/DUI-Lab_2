@@ -1,0 +1,15 @@
+.main-section {
+    display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+    .main-section {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-section {
+        display: block;
+    }
+}
