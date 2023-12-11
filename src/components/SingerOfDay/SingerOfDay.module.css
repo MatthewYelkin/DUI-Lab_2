@@ -1,32 +1,47 @@
 .SingerOfDay{
     width: 70%;
-    height: 700px;
+    height: 850px;
     background-color: #181818;
-    color: #fff;
+    color: #DDE4EA;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 500px;
+}
+
+.SingerOfDay>div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.SingerOfDay>div .SingerBlock{
+    margin-top: -120px;
 }
 
 .SingerBlock{
-    width: 70%;
     display: flex;
-    border: 5px solid white;
+    border: 5px solid #DDE4EA;
     border-radius: 25px;
 }
 
 .SingerOfDay h1{
-    margin: 15px 0 35px;
+    margin: 35px;
 }
 
 .SingerOfDay img{
     margin: 5px;
-    width: 200px;
+    width: 250px;
     border-radius: 15px;
+}
+
+.SingerOfDay p{
+    margin-left: 15px;
 }
 
 .SingerOfDay p:first-child{
     font-size: 32px;
+    margin-bottom: 4px;
 }
 
 .SingerOfDay p:nth-child(2){
@@ -38,5 +53,38 @@
 }
 
 .SingerInfo{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.SingerInfo div:first-child{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .SingerOfDay {
+        width: 100%;
+        height: 900px;
+    }
+
+    .SingerBlock{
+        display: block;
+        max-width: 350px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .SingerOfDay {
+        width: 100%;
+        height: 900px;
+    }
+
+    .SingerBlock{
+        display: block;
+        text-align: center;
+        max-width: 350px;
+    }
 }

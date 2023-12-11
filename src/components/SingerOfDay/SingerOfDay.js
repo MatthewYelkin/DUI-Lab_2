@@ -7,13 +7,19 @@ const SingerOfDay = () => {
     return (
         <div className = {classes.SingerOfDay}>
             <h1>Исполнитель дня</h1>
-            <div className = {classes.SingerBlock}>
-                <img src={singerOfDayPhoto} alt="PHOTO"/>
-                <div className="SingerInfo">
-                    <p>Имя</p>
-                    <p>Годы</p>
-                    <p>Краткая информация</p>
-                    <MyButton>Подробнее</MyButton>
+            <div>
+                <div className = {classes.SingerBlock}>
+                    <img src={singerOfDayPhoto} alt="PHOTO"/>
+                    <div className={classes.SingerInfo}>
+                        <div>
+                            <p>Имя</p>
+                            <p>Годы</p>
+                            <p>Краткая информацияКраткая я информацияя информацияя информацияя информацияинформация</p>
+                        </div>
+                        <div>
+                            <MyButton>Подробнее</MyButton>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
