@@ -1,9 +1,10 @@
 .MyButton{
     color: black;
-    background-color: white;
+    background-color: #DDE4EA;
     border-radius: 10px;
+    border: #DDE4EA;
     font-size: 20px;
     width: 200px;
     height: 50px;
-    margin: 15px 0 25px;
+    margin: 15px;
 }
