@@ -1,0 +1,11 @@
+.ListOfSingersPage{
+    padding-bottom: 20px;
+    padding-top: 8px;
+    background-color: #181818;
+    color: #DDE4EA;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
