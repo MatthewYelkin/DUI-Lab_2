@@ -29,10 +29,11 @@
 }
 
 .SingerInfo{
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 350px;
+    word-wrap: break-word;
 }
 
 .SingerInfo div:first-child{
@@ -41,16 +42,29 @@
 
 @media only screen and (max-width: 992px) {
     .SingerBlock{
-        display: block;
-        max-width: 350px;
+        flex-direction: column;
+        width: 350px;
         text-align: center;
+        height: 650px;
+    }
+    .SingerBlock img {
+        align-self: center;
+    }
+    .SingerInfo {
+        flex-grow: 3;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .SingerBlock{
-        display: block;
+        flex-direction: column;
         text-align: center;
-        max-width: 350px;
+        width: 350px;
+    }
+    .SingerBlock img {
+        align-self: center;
+    }
+    .SingerInfo {
+        flex-grow: 3;
     }
 }

@@ -7,7 +7,7 @@ const SingerOfDay = () => {
         <div className = "SingerOfDay">
             <h1>Исполнитель дня</h1>
             <div>
-                <SingerBlock style = {{marginTop: "-120px"}}/>
+                <SingerBlock name="OGBUDA" years="1999 - 2023" info="fadsasdfdsfds" style ={{marginTop: "-120px"}}/>
             </div>
         </div>
     );

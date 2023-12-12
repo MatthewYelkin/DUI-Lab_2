@@ -3,18 +3,18 @@ import classes from "./SingerBlock.module.css";
 import MyButton from "../MyButton/MyButton";
 import singerOfDayPhoto from "../../img/og_buda_avatar.jpg"
 
-const SingerBlock = (props) => {
+const SingerBlock = ({to, name, years, info, style}) => {
     return (
-        <div {...props} className = {classes.SingerBlock}>
-            <img src={singerOfDayPhoto} alt="PHOTO"/>
+        <div style={style} className = {classes.SingerBlock}>
+            <img src={singerOfDayPhoto} alt="SingerPhoto"/>
             <div className={classes.SingerInfo}>
                 <div>
-                    <p>Имя</p>
-                    <p>Годы</p>
-                    <p>Краткая информацияКраткая я информацияя информацияя информацияя информацияинформация</p>
+                    <p>{name}</p>
+                    <p>{years}</p>
+                    <p>{info}</p>
                 </div>
                 <div>
-                    <MyButton>Подробнее</MyButton>
+                    <MyButton to={to}>Подробнее</MyButton>
                 </div>
             </div>
         </div>
