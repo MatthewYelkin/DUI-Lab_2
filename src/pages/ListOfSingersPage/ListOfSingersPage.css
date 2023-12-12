@@ -4,8 +4,49 @@
     background-color: #181818;
     color: #DDE4EA;
     min-height: 600px;
+}
+
+.ListOfSingersPage_header{
+    margin: 40px 80px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ListOfSingersPage_header h1{
+    font-size: 50px;
+}
+
+.search_wrapper{
+    margin-top: 14px;
+    width: 230px;
+}
+
+.Singers{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+    .ListOfSingersPage_header{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .search_wrapper{
+        align-self: end;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ListOfSingersPage_header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .search_wrapper{
+        align-self: end;
+    }
 }
