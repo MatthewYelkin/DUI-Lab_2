@@ -22,10 +22,10 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link to="/" className="nav-link" style={{color:"#181818"}}>Главная</Link>
-                        <Link to="/singers" className="nav-link" style={{color:"#181818"}}>Исполнители</Link>
+                        <Link to="/" className="nav-link" style={{color:"#181818", fontSize:"20px"}}>Главная</Link>
+                        <Link to="/singers" className="nav-link" style={{color:"#181818", fontSize:"20px"}}>Исполнители</Link>
                     </Nav>
-                    <NavDropdown style={{color:"#181818"}} title="Язык" id="basic-nav-dropdown">
+                    <NavDropdown style={{color:"#181818", fontSize:"20px"}} title="Язык" id="basic-nav-dropdown">
                         <NavDropdown.Item href="">Английский</NavDropdown.Item>
                         <NavDropdown.Item href="">Русский</NavDropdown.Item>
                     </NavDropdown>
