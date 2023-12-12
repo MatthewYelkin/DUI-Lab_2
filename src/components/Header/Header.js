@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.png'
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 const Header = () => {
     const mes = () => {
@@ -8,23 +9,23 @@ const Header = () => {
     }
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary mb-2">
+        <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="/">
+                <Link to="/" className="navbar-brand">
                     <img
                         src= {logo}
                         width="50"
                         height="50"
                         alt="React Bootstrap logo"
                     />
-                </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Главная</Nav.Link>
-                        <Nav.Link href="/">Исполнители</Nav.Link>
+                        <Link to="/" className="nav-link" style={{color:"#181818"}}>Главная</Link>
+                        <Link to="/singers" className="nav-link" style={{color:"#181818"}}>Исполнители</Link>
                     </Nav>
-                    <NavDropdown title="Язык" id="basic-nav-dropdown">
+                    <NavDropdown style={{color:"#181818"}} title="Язык" id="basic-nav-dropdown">
                         <NavDropdown.Item href="">Английский</NavDropdown.Item>
                         <NavDropdown.Item href="">Русский</NavDropdown.Item>
                     </NavDropdown>

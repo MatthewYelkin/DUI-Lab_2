@@ -1,3 +1,9 @@
+.HomePage{
+    background-color: #DDE4EA;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
 .main-section {
     display: flex;
 }

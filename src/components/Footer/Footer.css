@@ -1,12 +1,13 @@
 .Footer{
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #F8F9FA;
-    margin-top: 20px;
+    color: #181818;
 }
+
 .Footer p{
     margin: 0;
 }

@@ -6,7 +6,7 @@ import AboutPlatform from "../../components/AboutPlatform/AboutPlatform";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="HomePage">
             <AboutPlatform/>
             <div className="main-section">
                 <SingerOfDay/>
