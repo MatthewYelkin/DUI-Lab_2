@@ -1,0 +1,59 @@
+.SingerPage{
+    background-color: #DDE4EA;
+    min-height: 1400px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.SingerPage h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 5px 50px;
+    border: 5px solid #181818;
+    border-radius: 50px;
+    color: #181818;
+}
+
+.SingerPage_PhotoAndText{
+    display: flex;
+}
+
+.SingerPage_PhotoAndText p{
+    margin-top: 25px;
+    font-size: 21px;
+    text-indent: 5ch;
+    color: #181818;
+}
+
+.SingerPage img{
+    margin: 15px;
+    border-radius: 55px;
+    width: 45%;
+}
+
+@media only screen and (max-width: 992px) {
+    .SingerPage_PhotoAndText{
+        display: block;
+        text-align: center;
+    }
+    .SingerPage img{
+        width: 80%;
+    }
+    .SingerPage_PhotoAndText p{
+        text-indent: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .SingerPage_PhotoAndText{
+        display: block;
+        text-align: center;
+    }
+    .SingerPage img{
+        width: 80%;
+    }
+    .SingerPage_PhotoAndText p{
+        text-indent: 0;
+    }
+}
