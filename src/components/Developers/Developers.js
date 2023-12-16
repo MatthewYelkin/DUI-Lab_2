@@ -1,45 +1,28 @@
 import React from 'react';
 import {Card, Stack} from "react-bootstrap";
 import "./Developers.css"
+import {useTranslation} from "react-i18next";
+import arrayOfDevs from "../../data/developers.json";
 
 const Developers = () => {
+    const {t, i18n} = useTranslation()
+
+    const developers = t('developers', {returnObjects: true})
+
     return (
         <Stack className="developers-section">
-            <h2 className="heading_developers">{"Разработчики"}</h2>
+            <h2 className="heading_developers">{t('developers_developers')}</h2>
             <div className="developers">
-                <Card className="developer-card">
-                    <Card.Img src={require("../../img/og_buda_avatar.jpg")} className="developer-photo"/>
-                    <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{"Елькин"}</Card.Title>
-                        <a href="https://github.com/alexeibob1" target="_blank" className="button-git">{"Профиль на GitHub"}</a>
-                    </Card.Body>
-                </Card>
-
-                <Card className="developer-card">
-                    <Card.Img src={require("../../img/og_buda_avatar.jpg")} className="developer-photo"/>
-                    <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{"Ханенко"}</Card.Title>
-                        <a href="https://github.com/AndreiKhanenko" target="_blank" className="button-git">{"Профиль на GitHub"}</a>
-                    </Card.Body>
-                </Card>
-
-                <Card className="developer-card">
-                    <Card.Img src={require("../../img/Altxander.jpg")} className="developer-photo"/>
-                    <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{"Шмаргун"}</Card.Title>
-                        <a href="https://github.com/Alex2004c" target="_blank" className="button-git">{"Профиль на GitHub"}</a>
-                    </Card.Body>
-                </Card>
-
-                <Card className="developer-card">
-                    <Card.Img src={require("../../img/Altxander.jpg")} className="developer-photo"/>
-                    <Card.Body className="developer-info">
-                        <Card.Title className="developer-name">{"Асепков"}</Card.Title>
-                        <a href="https://github.com/antitoxical" target="_blank" className="button-git">{"Профиль на GitHub"}</a>
-                    </Card.Body>
-                </Card>
+                {developers.map((devs, index)=>
+                    <Card className="developer-card">
+                        <Card.Img src={require(`../../img/developers/${arrayOfDevs.developers[index].img}`)} className="developer-photo"/>
+                        <Card.Body className="developer-info">
+                            <Card.Title className="developer-name">{t(devs.name) + " " + t(devs.surname)}</Card.Title>
+                            <a href={arrayOfDevs.developers[index].github} target="_blank" className="button-git">{t('developers_github')}</a>
+                        </Card.Body>
+                    </Card>
+                )}
             </div>
-
         </Stack>
     );
 };
