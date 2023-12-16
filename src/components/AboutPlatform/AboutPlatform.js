@@ -1,14 +1,17 @@
 import React from 'react';
 import "./AboutPlatform.css"
+import {useTranslation} from "react-i18next";
 
 const AboutPlatform = () => {
+    const {t, i18n} = useTranslation()
+
     return (
         <div className="AboutPlatform">
             <div className="AboutPlatform_left">
-                <h1>Данный портал о музыкальных исполнителях</h1>
+                <h1>{t('aboutPlatform_info1')}</h1>
             </div>
             <div className="AboutPlatform_right">
-                <p>Добро пожаловать в захватывающий мир звуков и творчества — ваш источник вдохновения, страсти и невероятного музыкального разнообразия!<br/><br/>Наш сайт - это путеводитель в уникальную вселенную талантливых музыкальных исполнителей, где каждая нота, каждый текст, каждое исполнение — это история, которую стоит рассказать.</p>
+                <p>{t('aboutPlatform_info2')}<br/><br/>{t('aboutPlatform_info3')}</p>
             </div>
         </div>
     );

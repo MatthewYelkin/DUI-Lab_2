@@ -16,6 +16,7 @@
 
 .AboutPlatform_left h1{
     font-weight: 700;
+    flex-grow: 3;
 }
 
 .AboutPlatform_right{
