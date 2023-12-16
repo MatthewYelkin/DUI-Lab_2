@@ -1,0 +1,80 @@
+{
+  "header_homePage": "Home",
+  "header_singersPage": "Artists",
+  "header_language": "Language",
+  "header_russian": "Russian",
+  "header_english": "English",
+
+  "footer_info": "BSUIR 2023",
+
+  "aboutPlatform_info1": "Find something new for yourself",
+  "aboutPlatform_info2": "Welcome to the exciting world of sound and creativity - your source of inspiration, passion and incredible musical diversity!",
+  "aboutPlatform_info3": "Our site is a guide to a unique universe of talented musical performers, where every note, every text, every performance is a story worth telling.",
+
+  "singerOfDay_singerOfDay": "Artist of the day",
+
+  "singerBlock_button": "More",
+
+  "developers_developers": "Developers",
+  "developers_github": "Profile on GitHub",
+
+  "developers": [
+    {
+      "name": "Matthew",
+      "surname": "Yelkin"
+    },
+    {
+      "name": "Andrei",
+      "surname": "Khanenko"
+    },
+    {
+      "name": "Danila 52",
+      "surname": "Asepkov"
+    },
+    {
+      "name": "Alexander",
+      "surname": "Shmargun"
+    }
+  ],
+
+  "listOfSingersPage_allSingers": "All artists",
+  "listOfSingersPage_search": "Search",
+
+  "singerPage_birthDate": "Date of Birth: ",
+  "singerPage_discography": "Discography",
+  "singerPage_albums": "Album covers",
+  "singerPage_hometown": "Hometown",
+
+  "singers": {
+    "og_buda": {
+      "short_info": "OG Buda - real name - Grigory Lyakhov. Russian hip-hop, rap artist, songwriter, composer, actor and member of the creative associations “RNDM Crew” and “Melon Music”.",
+      "full_info": "Music firmly captured Lyakhov’s mind and heart in his early years: the boy and his friends tried to rap in a fictitious language, composing the first track at the age of 8; in his youth he listened to 50 Cent and Eminem, “Caste”, “Market Relations” and “Black Economy” . Gradually, the hobby grew into a profession thanks to the creative association RNDM Crew.\nIn mid-April 2017, a debut single appeared in the singer’s official VKontakte group. But his friend Feduk contributed greatly to the emergence of interest in the performer.\nAlready in 2018, an acquaintance with Platinum took place, which developed into cooperation. The artists recorded a mini-collection of “Sweet Dreams” and released a video for the hit “This is not love.”\nThe next year was marked by the release of the performer’s debut studio album entitled “OCG City”. In honor of this event, a photo shoot was made in the style of criminal gangs of the 90s, in which OG Buda participated with friends.\n2021 turned out to be a fruitful year for him, and his discography was replenished with two new albums - SEXY DRILL and FREERIO, which were warmly received by loyal fans. There were also some successful collaborations. Although the subsequent 2022 pleased fans with only one album, FREERIO 2, 2023 completely filled in all the necessary gaps with as many as three hit albums in which Grisha implemented various styles.",
+      "birth_date": "January 10, 1994"
+    },
+    "9mice": {
+      "short_info": "9mice (Dmitriev Sergey Igorevich) is a native of Vladivostok, Russian performer, producer, creative director and member of the creative duo VIPERR.",
+      "full_info": "Sergei has been thinking about his musical creativity since school, despite his interest in biathlon and computer games. The debut track he co-wrote with a friend, despite the failure, did not lead him astray. Instead of despairing, he continued to refine his style and sound.\nIn 2021, 9mice’s first album entitled “SOLOIST” was released, which won the hearts of listeners. It was followed by successful collaborations with Kai Angel.\nIn the spring of 2023, in an interview, the young artists shared their plans, inspiration and common interests. 9Mice admitted that he is more comfortable working as a duo, as it brings more ideas and inspiration. The same year, the solo album “ASPHALT” was released with eleven tracks, as well as the album “HEAVY METAL”, joint with Kai Angel, which brought the duo the greatest popularity.\nAlso, the duo 9mice and Kai Angel distinguished themselves in the work of producer Aarne, which became one of the most listened to albums of this year.",
+      "birth_date": "August 27, 2000"
+    },
+    "bushido_zho": {
+      "short_info": "Bushido Zho (real name Zhoas Lvovich Maskurov) is a Russian trap artist and member of the cplus label.",
+      "full_info": "Joas began making music in 2017, but received his first fame only two years later - in 2019, with the release of the mini-album “Unfortunately this is a ladder.” During this period, he also began to actively collaborate with other artists, including Seemee, Mayot, Hillhope and Ape Muder.\nIn 2022, he released his debut LP, No Bang! Hold On!”, which debuted in first place on the Russian Apple Music album charts. Guest performers from the cplus label took part in the recording of the album.\nIn March 2023, the label's artists - Soda Luv, Blago White, Bushido Zho and artist Q.JAY - launched three of their own shows in Zen: \"Street Psychology\", \"Catch Zen\" and \"Material Values\".",
+      "birth_date": "January 28, 1999"
+    },
+    "lil_krystalll": {
+      "short_info": "Lil Krystall - Ulans Rishardovich Poznaks, born in Riga, Latvia - Russian-speaking performer of the new school of rap, member of the RNL CLUB association.",
+      "full_info": "Ulans began playing music in 2018, when he began performing at concerts with the creative team “RNB Club”. In the same year, his debut studio album entitled “Lil Krystall” was released.\nIn 2019, the mixtape “Brother 3” was released together with the performer OFFMi, as well as the second studio album No Label. Containing features with famous artists such as FEDUK, OG Buda, Big Baby Tape, Platinum, Lil Morty.\nIn May 2020, the album disappeared from digital platforms, and Lil Krystall unfollowed the members of the “RNB Club” on Instagram. The album was later returned to digital platforms.\nOn December 8, 2023, Ulans, after a long absence from the radar of the most popular playlists, returned with a new album “Kristina”.\nNow Crystal, who has settled in England, is active in concert activities. The guy does not talk about his future plans.",
+      "birth_date": "September 3, 1995"
+    },
+    "skryptonite": {
+      "short_info": "Скриптонит (real name: Adil Oralbekovich Zhalelov) is a Kazakh performer and music producer.",
+      "full_info": "Adil started playing music as a teenager, became interested in rap at the age of 11, and wrote his first rap song at the age of 15. At the age of 19, he and his friend organized the creative association “JILLZ”.\nIn 2015, he released his debut album, which became one of the most successful Russian-language rap albums of 2015.\nIn 2018, he divided his creativity into two projects: Skryptonite and Gruppa Skryptonite. As Adil himself explained, this distinction applies not only to recording songs, but also to concerts.\nHe is the most listened to artist in the CIS for 2021 according to Music First.",
+      "birth_date": "June 3, 1990"
+    },
+    "toxis": {
+      "short_info": "Toxi$ - Andrei Leonidovich Smelyansky. He gained the greatest fame in modern 2023 thanks to the unusual presentation of this material by recording funny video messages in his personal telegram channel.",
+      "full_info": "The rapper's creative path began as an English-language performer. Even before graduating from high school, Toxi$ released his first album. Starting in 2020, Andrei began creating his first hits, then the rapper joined the creative association RANDOM CREW, which included trap stars such as OG Buda and 163ONMYNECK.\nFrom that moment on, the rapper's career began to actively develop. He expanded his discography with albums, recorded joint feats with famous artists, released video clips, and performed concerts.\nThe rapper's fame went beyond the music industry and brought him a sharp increase in audience thanks to funny video messages in his personal Telegram channel, which unexpectedly turned into thousands of memes. On the wave of success, Toxis began to expand his creative boundaries and release even more new tracks.\nFor one of the most prominent representatives of the new school of rap, 2023 has become extremely rich in feats with popular artists.",
+      "birth_date": "March 21, 2004"
+    }
+  }
+}
