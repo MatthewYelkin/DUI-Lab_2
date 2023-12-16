@@ -9,3 +9,7 @@
     height: 50px;
     margin: 15px;
 }
+
+.MyButton:hover{
+    box-shadow: 0 0 5px 2px #9b9898;
+}
