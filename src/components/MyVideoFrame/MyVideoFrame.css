@@ -1,0 +1,28 @@
+.video_wrapper{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+
+}
+.video_wrapper iframe{
+    width: 80%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 992px) {
+    .video_wrapper iframe{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .video_wrapper iframe{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 752px) {
+    .video_wrapper iframe{
+        height: 250px;
+    }
+}
