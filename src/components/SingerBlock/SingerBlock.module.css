@@ -18,6 +18,7 @@
 .SingerBlock p:first-child{
     font-size: 32px;
     margin-bottom: 4px;
+    margin-top: -10px;
 }
 
 .SingerBlock p:nth-child(2){
@@ -26,13 +27,14 @@
 
 .SingerBlock p:last-child{
     font-size: 16px;
+    margin-right: 10px;
 }
 
 .SingerInfo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 350px;
+    width: 390px;
     word-wrap: break-word;
 }
 
@@ -43,28 +45,13 @@
 @media only screen and (max-width: 992px) {
     .SingerBlock{
         flex-direction: column;
-        width: 350px;
         text-align: center;
-        height: 650px;
     }
     .SingerBlock img {
         align-self: center;
     }
     .SingerInfo {
         flex-grow: 3;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .SingerBlock{
-        flex-direction: column;
-        text-align: center;
         width: 350px;
-    }
-    .SingerBlock img {
-        align-self: center;
-    }
-    .SingerInfo {
-        flex-grow: 3;
     }
 }

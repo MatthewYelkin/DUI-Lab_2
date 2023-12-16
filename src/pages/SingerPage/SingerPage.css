@@ -1,8 +1,9 @@
 .SingerPage{
     background-color: #DDE4EA;
     min-height: 1400px;
-    padding-bottom: 20px;
-    padding-top: 8px;
+    /*padding-bottom: 20px;*/
+    /*padding-top: 8px;*/
+    padding: 20px 15px 8px;
 }
 
 .SingerPage h1{
@@ -19,20 +20,34 @@
     display: flex;
 }
 
-.SingerPage_PhotoAndText p{
-    margin-top: 25px;
+.singerInfo{
     font-size: 21px;
     text-indent: 5ch;
     color: #181818;
+    padding: 15px;
+    text-align: justify;
+}
+
+.singerInfo p{
+    margin-top: 25px;
 }
 
 .SingerPage img{
     margin: 15px;
     border-radius: 55px;
-    width: 45%;
+    max-height: 800px;
+    max-width: 700px;
 }
 
-@media only screen and (max-width: 992px) {
+.SingerPage h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 5px 50px;
+    color: #181818;
+}
+
+@media only screen and (max-width: 1392px) {
     .SingerPage_PhotoAndText{
         display: block;
         text-align: center;
@@ -43,17 +58,7 @@
     .SingerPage_PhotoAndText p{
         text-indent: 0;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .SingerPage_PhotoAndText{
-        display: block;
+    .singerInfo{
         text-align: center;
-    }
-    .SingerPage img{
-        width: 80%;
-    }
-    .SingerPage_PhotoAndText p{
-        text-indent: 0;
     }
 }
