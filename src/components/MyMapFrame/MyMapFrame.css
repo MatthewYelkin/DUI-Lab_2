@@ -1,0 +1,30 @@
+.map_wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.singer_map{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 992px) {
+    .singer_map{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .singer_map{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 752px) {
+    .singer_map{
+        height: 250px;
+    }
+}
