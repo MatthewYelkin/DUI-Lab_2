@@ -1,0 +1,26 @@
+.MyCarousel_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.works-carousel {
+    width: 80%;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 40% !important;
+}
+
+.carousel-caption {
+    font-family: WixMadeforDisplay, serif;
+    color: #181818 !important;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    position: static !important;
+}
