@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DUI-Lab_2/static/css/main.9c903ce8.css",
-    "main.js": "/DUI-Lab_2/static/js/main.8461d014.js",
+    "main.js": "/DUI-Lab_2/static/js/main.1ff7ee02.js",
     "static/media/3.png": "/DUI-Lab_2/static/media/3.5226879636f864c1a269.png",
     "static/media/2.png": "/DUI-Lab_2/static/media/2.c5dcccc0765c9a111589.png",
     "static/media/1.png": "/DUI-Lab_2/static/media/1.22ed9619ffe6ad8992ae.png",
@@ -30,10 +30,10 @@
     "index.html": "/DUI-Lab_2/index.html",
     "static/media/getFetch.cjs": "/DUI-Lab_2/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.9c903ce8.css.map": "/DUI-Lab_2/static/css/main.9c903ce8.css.map",
-    "main.8461d014.js.map": "/DUI-Lab_2/static/js/main.8461d014.js.map"
+    "main.1ff7ee02.js.map": "/DUI-Lab_2/static/js/main.1ff7ee02.js.map"
   },
   "entrypoints": [
     "static/css/main.9c903ce8.css",
-    "static/js/main.8461d014.js"
+    "static/js/main.1ff7ee02.js"
   ]
 }
