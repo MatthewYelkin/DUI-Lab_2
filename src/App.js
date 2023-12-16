@@ -10,11 +10,11 @@ import SingerPage from "./pages/SingerPage/SingerPage";
 function App() {
     return (
         <BrowserRouter>
-            <Header />
+            <Header/>
             <Routes>
                 <Route path="" element={<HomePage/>}/>
-                <Route path="/singers" element={<ListOfSingersPage/>}/>
-                <Route path="singers/:id" element={<SingerPage/>}/>
+                <Route path="/artists" element={<ListOfSingersPage/>}/>
+                <Route path="artists/:id" element={<SingerPage/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
